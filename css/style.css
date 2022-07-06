@@ -8,7 +8,7 @@ body {
 }
 h1 {
     color: #F8F9D7;
-    font-size: 5.625rem;
+    font-size: 9rem;
 }
 h2 {
     color:#576F72;
@@ -43,8 +43,10 @@ h2 {
     top: 40px;
 }
 .sec-cloud {
-    position: absolute;
-    left: 600px;
+    position: relative;
+    bottom: 540px;
+    margin-top: 242px;
+    
 }
 
 h1:hover {
@@ -57,7 +59,8 @@ h1:hover {
 .semi-title {
     font-family: 'Dosis', sans-serif;
     color: #F8F9D7;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    
 }
 
 hr {
@@ -70,5 +73,8 @@ hr {
 .mountain-img {
     
     max-width: 100%;
+    margin-top: 86px;
+    
+    
 
 }
