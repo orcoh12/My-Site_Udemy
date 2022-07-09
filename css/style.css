@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #F5F0BB;
+    background-color: #5d6d70;
     margin:0;
     font-family: 'Dosis', sans-serif;
     
@@ -12,39 +12,69 @@ h1 {
 }
 h2 {
     color:#576F72;
-    
+    text-align: center;
+  
+}
+h3  {
+    text-align: left;
+    font-size: 90;
+}
+p {
+    color: #371B58;
+}
+.discription {
+    line-height: 2;
+    font-size: 18px;
+}
+.middle-container {
+    background-color: #99C4C8;
+    margin-bottom: 0px;
 }
 .top-container {
-    background-color: #6E85B7;
+    background-color: #68A7AD;
     margin-bottom: 0;
     height:100vh;
-
-
 }
+
+
+.contact-me {
+        margin: 0px auto 20px auto;
+        width: 65%;
+        text-align: left;
+        background-color: #5d6d70;
+        
+    }
+
 
 .skill-row {
+    margin: 100px auto 100px auto;
+    width: 75%;
+    text-align: left;
 
 }
-.contact-me {
-    
-
+.test-div {
+    margin: 100px auto 100px auto;
+    width: 75%;
+    text-align: left;
 }
+
 
 
 .profile-pic {
     border-radius: 90%;
     margin-top: 30px;
-    height: 100px;
-    width: 100px;
+    width: 14%;
+    height: 14%;
 }
 .top-cloud {
     position: relative;
-    left: 210px;
+    left: 450px;
     top: 40px;
 }
 .sec-cloud {
     position: relative;
-    bottom: 540px;
+    bottom: 200px;
+    right:500px ;
     margin-top: 242px;
     
 }
@@ -53,6 +83,9 @@ h1:hover {
     color: red;
     
 }
+
+
+
 .main-title {
     font-family: 'Yellowtail', cursive;
 }
@@ -60,6 +93,8 @@ h1:hover {
     font-family: 'Dosis', sans-serif;
     color: #F8F9D7;
     font-size: 3rem;
+    text-align: center;
+    
     
 }
 
@@ -72,9 +107,35 @@ hr {
 }
 .mountain-img {
     
-    max-width: 100%;
-    margin-top: 86px;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left:30%;
     
     
 
+}
+
+.computer-img {
+    display:block;
+    width: 18%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.test-pic
+
+{
+    display:block;
+    width: 18%;
+    border-radius: 100%;
+    float: right;
+    margin-right: 30px;
+}
+
+.icon {
+    height: 30px;
+    margin-right: 20px;
 }
